@@ -1,0 +1,25 @@
+{
+  "name": "Python Development",
+  "image": "mcr.microsoft.com/devcontainers/python:3.9",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.9"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dracula-theme.theme-dracula",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter"
+      ],
+      "settings": {
+        "workbench.colorTheme": "Dracula Theme", // Set Dracula as the default theme
+        "editor.formatOnSave": true, // Optional: Enable auto-formatting
+        "python.formatting.provider": "black"
+      }
+    }
+  },
+  "postCreateCommand": "pip install -r requirements.txt"
+}
