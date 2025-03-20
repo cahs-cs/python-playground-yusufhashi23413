@@ -1,3 +1,4 @@
+[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=18792087)
 # Welcome to Your Coding Playground
 
 This repository is set up for you to practice coding, using GitHub and Codespaces. It will help you manage your projects and assignments as you go through the class. Here’s how to get started.
